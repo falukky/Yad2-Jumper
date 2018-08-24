@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yad2Jumper", "Yad2Jumper\Yad2Jumper.csproj", "{2D7E507A-5BD2-4E1C-88D5-EE3468E64006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yad2Jumper.Tests", "Yad2Jumper.Tests\Yad2Jumper.Tests.csproj", "{22D75A73-D65F-4F63-BE16-77269602B6B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7E507A-5BD2-4E1C-88D5-EE3468E64006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7E507A-5BD2-4E1C-88D5-EE3468E64006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7E507A-5BD2-4E1C-88D5-EE3468E64006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7E507A-5BD2-4E1C-88D5-EE3468E64006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D75A73-D65F-4F63-BE16-77269602B6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D75A73-D65F-4F63-BE16-77269602B6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D75A73-D65F-4F63-BE16-77269602B6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D75A73-D65F-4F63-BE16-77269602B6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {643A05E8-2EB7-4B64-AE35-15331DE2F48C}
+	EndGlobalSection
+EndGlobal
