@@ -16,7 +16,6 @@ namespace Yad2Jumper.Tests
         [TestCleanup]
         public void TearDown()
         {
-            //
             Browser.StopBrowser();
         }
 

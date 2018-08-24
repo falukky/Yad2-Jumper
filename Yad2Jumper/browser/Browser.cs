@@ -182,5 +182,10 @@ namespace Yad2Jumper.browser
             _actions = null;
             _screenshot = null;
         }
+
+        public static void Refresh()
+        {
+            Driver.Navigate().Refresh();
+        }
     }
 }

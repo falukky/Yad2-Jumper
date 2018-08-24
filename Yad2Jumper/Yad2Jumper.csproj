@@ -57,6 +57,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="pages\HomePage.cs" />
     <Compile Include="pages\Pages.cs" />
+    <Compile Include="pages\PersonalPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
