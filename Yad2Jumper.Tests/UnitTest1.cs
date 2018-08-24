@@ -25,6 +25,7 @@ namespace Yad2Jumper.Tests
         {                        
             Pages.HomePage().LogIn("falukky@gmail.com", "Welcome99!");
             Assert.IsTrue(Pages.HomePage().IsAt());
+            Pages.PersonalPage().jumpPosts();
         }
     }
 }
