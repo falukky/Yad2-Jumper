@@ -17,6 +17,7 @@ C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\bin\Debug\
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\bin\Debug\WebDriver.dll
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\bin\Debug\Syroot.KnownFolders.xml
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\bin\Debug\WebDriver.xml
+C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\obj\Debug\Yad2Jumper.csproj.CoreCompileInputs.cache
+C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\obj\Debug\Yad2Jumper.csproj.CopyComplete
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\obj\Debug\Yad2Jumper.dll
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\obj\Debug\Yad2Jumper.pdb
-C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper\obj\Debug\Yad2Jumper.csprojResolveAssemblyReference.cache

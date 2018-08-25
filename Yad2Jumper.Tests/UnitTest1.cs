@@ -1,29 +1,29 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using Yad2Jumper.browser;
 using Yad2Jumper.pages;
 
 namespace Yad2Jumper.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
-        [TestInitialize]
+        [SetUp]
         public void SetUp()
         {
             Pages.HomePage().GoTo(BrowserType.Chrome);
         }
 
-        [TestCleanup]
+        [TearDown]
         public void TearDown()
         {
             Browser.StopBrowser();
         }
 
 
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {                        
-            Pages.HomePage().LogIn("falukky@gmail.com", "Welcome99!");
+            Pages.HomePage().LogIn("falukky@gmail.com", "Welcome13!");
             Assert.IsTrue(Pages.HomePage().IsAt());
             Pages.PersonalPage().jumpPosts();
         }
