@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System;
 using Yad2Jumper.browser;
 using Yad2Jumper.pages;
 
@@ -11,6 +12,7 @@ namespace Yad2Jumper.Tests
         public void SetUp()
         {
             Pages.HomePage().GoTo(BrowserType.Chrome);
+            Console.WriteLine("START TESTS");
         }
 
         [TearDown]
@@ -22,7 +24,8 @@ namespace Yad2Jumper.Tests
 
         [Test]
         public void TestMethod1()
-        {                        
+        {
+            Console.WriteLine("TEST");
             Pages.HomePage().LogIn("falukky@gmail.com", "Welcome13!");
             Assert.IsTrue(Pages.HomePage().IsAt());
             Pages.PersonalPage().jumpPosts();
