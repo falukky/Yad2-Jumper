@@ -63,8 +63,7 @@ namespace Yad2Jumper.pages
 
                     if (IsPostJumpButtonEnable())
                     { // In case jump post is available.
-                        //JumpPostButton.Click();
-                        System.Console.WriteLine("Clicked !!!");
+                        JumpPostButton.Click();
                         Thread.Sleep(2000);
                         Browser.Driver.SwitchTo().DefaultContent();
                         po[j].Click();
