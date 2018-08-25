@@ -1,6 +1,5 @@
 ﻿using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading;
 using Yad2Jumper.browser;
@@ -48,6 +47,9 @@ namespace Yad2Jumper.pages
 
         public void jumpPosts()
         {
+            Thread.Sleep(3000);
+            System.Console.WriteLine(Browser.Driver.Url);
+
             ReadOnlyCollection<IWebElement> urls = CategoriesPostsUrls;
             for (int i = 0; i < urls.Count; i++)
             {
@@ -63,6 +65,7 @@ namespace Yad2Jumper.pages
 
                     if (IsPostJumpButtonEnable())
                     { // In case jump post is available.
+                        System.Console.WriteLine("Jump post button is enable, click jump post...");
                         JumpPostButton.Click();
                         Thread.Sleep(2000);
                         Browser.Driver.SwitchTo().DefaultContent();

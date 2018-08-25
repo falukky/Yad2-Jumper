@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using SeleniumExtras.WaitHelpers;
+using System.Threading;
 using Yad2Jumper.browser;
 
 namespace Yad2Jumper.pages
@@ -39,16 +40,29 @@ namespace Yad2Jumper.pages
 
         public void LogIn(string emailAddress, string password)
         {
+            System.Console.WriteLine("start to insert email");
+            Thread.Sleep(1000);
             emaillAddressTextBox.SendKeys(emailAddress);
+            System.Console.WriteLine("finish to insert email");
 
+            Thread.Sleep(1000);
+            System.Console.WriteLine("start to insert password");
             Browser.Actions.MoveToElement(passwordTextBox);
             Browser.Actions.Click();
             Browser.Actions.SendKeys(password);
             Browser.Actions.Build().Perform();
+            System.Console.WriteLine("finish to insert password");
 
+            Thread.Sleep(1000);
+            System.Console.WriteLine("start to click login");
             Browser.Actions.MoveToElement(loginButton);
             Browser.Actions.Click();
             Browser.Actions.Build().Perform();
+            System.Console.WriteLine("finish to click login");
+
+            System.Console.WriteLine("wait 5 seconds");
+            Thread.Sleep(5000);
+            System.Console.WriteLine("CURRENT URL: " + Browser.Driver.Url);
         }
 
         public bool IsAt()
