@@ -37,6 +37,4 @@ C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\bin\
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\bin\Debug\Syroot.KnownFolders.xml
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.dll
 C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.pdb
-C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.csprojAssemblyReference.cache
-C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.csproj.CoreCompileInputs.cache
-C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.csproj.CopyComplete
+C:\Users\raviv\Dropbox\documents\learning\repo\yad2-jumper\Yad2Jumper.Tests\obj\Debug\Yad2Jumper.Tests.csprojResolveAssemblyReference.cache
