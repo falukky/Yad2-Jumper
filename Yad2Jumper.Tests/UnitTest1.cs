@@ -25,10 +25,11 @@ namespace Yad2Jumper.Tests
         [Test]
         public void TestMethod1()
         {
-            Console.WriteLine("TEST");
+            Console.WriteLine("TEST 1");
             Pages.HomePage().LogIn("falukky@gmail.com", "Welcome13!");
-            Assert.IsTrue(Pages.HomePage().IsAt());
-            Pages.PersonalPage().jumpPosts();
+            //Assert.IsTrue(Pages.HomePage().IsAt());
+            //Pages.PersonalPage().jumpPosts();
+            Console.WriteLine("TEST 2");
         }
     }
 }
